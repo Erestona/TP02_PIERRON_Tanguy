@@ -1,47 +1,47 @@
 
 <div>
     <label for="nom">Nom:</label>
-    <input type="text" id="nom" formControlName="nom">
+    <input [(ngModel)]="nom" type="text" id="nom" formControlName="nom">
 </div>
 <div>
     <label for="prenom">Prénom:</label>
-    <input type="text" id="prenom" formControlName="prenom">
+    <input [(ngModel)]="prenom" type="text" id="prenom" formControlName="prenom">
 </div>
 <div>
     <label for="adresse">Adresse:</label>
-    <input type="text" id="adresse" formControlName="adresse">
+    <input [(ngModel)]="adresse" type="text" id="adresse" formControlName="adresse">
 </div>
 <div>
     <label for="codePostal">Code Postal:</label>
-    <input type="text" id="codePostal" formControlName="codePostal">
+    <input [(ngModel)]="codePostal" type="text" id="codePostal" formControlName="codePostal">
 </div>
 <div>
     <label for="ville">Ville:</label>
-    <input type="text" id="ville" formControlName="ville">
+    <input [(ngModel)]="ville" type="text" id="ville" formControlName="ville">
 </div>
 <div>
     <label for="tel">Téléphone:</label>
-    <input type="text" id="tel" formControlName="tel">
+    <input [(ngModel)]="tel"  type="text" id="tel" formControlName="tel">
 </div>
 <div>
     <label for="email">Email:</label>
-    <input type="text" id="email" formControlName="email">
+    <input  [(ngModel)]="email" type="text" id="email" formControlName="email">
 </div>
 <div>
     <label for="civilite">Civilité:</label>
-    <input type="text" id="civilite" formControlName="civilite">
+    <input [(ngModel)]="civilite" type="text" id="civilite" formControlName="civilite">
 </div>
 <div>
     <label for="password">Mot de passe:</label>
-    <input type="password" id="password" formControlName="password">
+    <input [(ngModel)]="password" type="password" id="password" formControlName="password">
 </div>
 <div>
     <label for="login">Login:</label>
-    <input type="text" id="login" formControlName="login">
+    <input [(ngModel)]="login" type="text" id="login" formControlName="login">
 </div>
 <div>
     <label for="pays">Pays:</label>
-    <input type="text" id="pays" formControlName="pays">
+    <input  [(ngModel)]="pays" type="text" id="pays" formControlName="pays">
 </div>
 <button type="submit" (click)="displayLabel()" >Soumettre</button>
 
